@@ -1,0 +1,27 @@
+{% set build = 0 %}
+{% set version = "2.1.1" %}
+
+package:
+    name: tig
+    version: {{version}}
+
+about:
+    home: https://github.com/jonas/tig/
+    license: GPLv2
+    summary: ncurses-based Git repository browser
+
+source:
+    fn: tig-{{version}}.tar.gz
+    url: https://github.com/jonas/tig/archive/tig-{{version}}.tar.gz
+    md5: 38bef6e3fe59dc23f5b30a07a485193c
+
+requirements:
+    build:
+        - ncurses
+        - readline
+    run:
+        - ncurses
+        - readline
+
+build:
+    number: {{build}}
