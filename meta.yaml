@@ -17,6 +17,7 @@ source:
 
 requirements:
     build:
+        - asciidoc
         - ncurses
         - readline
     run:
