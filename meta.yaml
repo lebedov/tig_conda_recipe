@@ -1,5 +1,5 @@
 {% set build = 0 %}
-{% set version = "2.3.3" %}
+{% set version = "2.4.1" %}
 
 package:
     name: tig
@@ -13,7 +13,7 @@ about:
 source:
     fn: tig-{{version}}.tar.gz
     url: https://github.com/jonas/tig/releases/download/tig-{{version}}/tig-{{version}}.tar.gz
-    md5: 800a63f6772b9fa1cd9b9e1ad99f4eee
+    md5: 9a7c31ea2c83a5cd0c65c275c4d671db
 
 requirements:
     build:
